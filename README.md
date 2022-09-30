@@ -13,7 +13,7 @@ $strawberryJelly = new Jelly();
 $jams = [$raspberryJam];
 
 // This should fail as this will cause the `$jams` type definition to change from Jam[] to Jam|Jelly[] 
-$jams[] = $strawberryJely;
+$jams[] = $strawberryJelly;
 ```
 
 `src/NoArrayTypeMutationOnAssignRule.php`
