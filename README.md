@@ -12,7 +12,8 @@ $strawberryJelly = new Jelly();
 
 $jams = [$raspberryJam];
 
-// This should fail as this will cause the `$jams` type definition to change from Jam[] to Jam|Jelly[] 
+// This should fail.
+// It would cause the `$jams` type definition to change from Jam[] to Jam|Jelly[] 
 $jams[] = $strawberryJelly;
 ```
 
