@@ -10,7 +10,7 @@ A collection of PHPStan rules to more strictly handle array types.
 $raspberryJam = new Jam();
 $strawberryJelly = new Jelly();
 
-$jams = [$raspberryJame];
+$jams = [$raspberryJam];
 
 // This should fail as this will cause the `$jams` type definition to change from Jam[] to Jam|Jelly[] 
 $jams[] = $strawberryJely;
