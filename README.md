@@ -6,7 +6,7 @@ A collection of PHPStan rules to more strictly handle array types.
 
 ### No type mutation when adding new elements into an array via assignment shorthand
 
-```
+```php
 $raspberryJam = new Jam();
 $strawberryJelly = new Jelly();
 
