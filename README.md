@@ -1,6 +1,6 @@
-# PHP Strict Arrays 
+# PHPStan Strict Arrays 
 
-A collection of PHPStan rules to more strictly handle array types. 
+A collection of [PHPStan](https://phpstan.org/) rules to more strictly handle array types. 
 
 ## Rules
 
