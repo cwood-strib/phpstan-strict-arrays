@@ -1,0 +1,23 @@
+{
+    "name": "cwood-strib/phpstan-strict-arrays",
+    "type": "package",
+    "package": {
+      "name": "cwood-strib/phpstan-strict-arrays",
+      "version": "0.0.1",
+      "source": {
+        "type" : "git",
+        "url" : "git://github.com/cwood-strib/phpstan-strict-arrays.git",
+        "reference" : "main"
+      },
+      "dist": {
+        "url": "https://github.com/cwood-strib/phpstan-strict-arrays.git/archive/master.zip",
+        "type": "zip"
+      }
+    },
+    "autoload": {
+  	"psr-4": {"StarTribune\\PHPStan\\": "./src"}
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.5"
+    }
+}
