@@ -22,7 +22,6 @@ class NoArrayTypeMutationOnAssignRule implements \PHPStan\Rules\Rule
     if ($node->var instanceof ArrayDimFetch) {
       $exprType = $scope->getType($node->expr);
       $arrayType = $scope->getType($node->var->var)->getIterableValueType();
-      var_dump($arrayType);
 
       // TODO: Improve error messaging here to include types
       if ($arrayType->isSuperTypeOf($exprType)->no()) {
